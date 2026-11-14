@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.recipe {
+    width: 150px;
+}
+
+h1 {
+    font-family: "Amatic SC";
+    font-size: 100px;
+}
+
+.search-icon {
+    width: 20px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    width: 94%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+    padding-left:10px ;
+}
+
+form {
+    display: flex;
+    align-items: stretch;
+    border: solid black 1px ;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.search-icon {
+    border-left: 1px solid grey ;
+    padding-left: 4px;
+    height: 80%;
+    display: flex;
+    
+}
+
+main {
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+}
+
+#apple-crisp {
+    width: 100%;
+    display: flex;
+}
+
+h2 {
+    font-family: "Amatic SC";
+    color: #60b7e9;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+#dessert {
+    padding: 8px 15px;
+    align-self: flex-start;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#disc {
+    display:none ;
+}
+
+.social {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.socials {
+    width: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 700px){
+    main {
+        flex-direction: row;
+    }
+
+    #disc {
+        display: block;
+    }
+
+    .recipe-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    #apple-crisp {
+        width: 50%;
+    }
+
+    .social {
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+
+    footer {
+        margin-top: 0px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    #end {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: -20px;
+        
+    }
+}
